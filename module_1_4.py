@@ -1,0 +1,8 @@
+my_string = input("В каком месяце вы родились?: ")
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print("В каком месяце вы родились?: ".replace(' ',""))
+print(my_string)
+print(my_string[0])
+print(my_string[-1])
