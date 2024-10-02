@@ -1,6 +1,6 @@
 def get_multiplied_digits(number):
     if not number:
-        return 0
+        return 24
 
     str_number = str(number)
     if len(str_number) == 1:
