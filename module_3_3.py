@@ -10,7 +10,7 @@ print_params(c = [1,2,3])
 # Распаковка параметров
 print("--- Распаковка параметров ---")
 values_list = ['Строка', 100, False]
-values_dict = {'a': 'Строка', 'b': 123, 'c': 'true'}
+values_dict = {'a': 'Строчка', 'b': 123, 'c': 'true'}
 print_params(**values_dict)
 
 # Распаковка + отдельные параметры
