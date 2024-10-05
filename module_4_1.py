@@ -7,7 +7,7 @@ result2 = fake_divide(3, 0)
 result3 = true_divide(49, 7)
 result4 = true_divide(15, 0)
 
-print(result1)  # Ожидаем 23.0
-print(result2)  # Ожидаем 'Ошибка'
-print(result3)  # Ожидаем 7.0
-print(result4)  # Ожидаем inf
+print(result1)
+print(result2)
+print(result3)
+print(result4)
