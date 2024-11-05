@@ -23,9 +23,9 @@ class WordsFinder:
         for filename, words in all_words.items():
             try:
                 index = words.index(word.lower())
-                result[filename] = index + 1  # Преобразуем индекс в порядковый номер
+                result[filename] = index + 1
             except ValueError:
-                pass  # Слово не найдено, ничего не добавляем в результат
+                pass
         return result
 
     def count(self, word):
